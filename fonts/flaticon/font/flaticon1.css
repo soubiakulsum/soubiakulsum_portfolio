@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?a4e3aa96a22127022e86040c010e99bf") format("truetype"),
+url("./flaticon.woff?a4e3aa96a22127022e86040c010e99bf") format("woff"),
+url("./flaticon.woff2?a4e3aa96a22127022e86040c010e99bf") format("woff2"),
+url("./flaticon.eot?a4e3aa96a22127022e86040c010e99bf#iefix") format("embedded-opentype"),
+url("./flaticon.svg?a4e3aa96a22127022e86040c010e99bf#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-android-logo:before {
+    content: "\f101";
+}
