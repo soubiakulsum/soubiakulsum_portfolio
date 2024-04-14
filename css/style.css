@@ -9804,3 +9804,102 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .projects-div{
+      display: flex;
+      flex-direction:column;
+      .first-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 65%;
+        gap: 30px;
+        margin: auto;
+        margin-top: 30px;
+
+       
+        .product-text-main{
+          color:white;
+          width:60%;
+          display: flex;
+          flex-direction: column;
+          gap:30px;
+          .product-text-head{
+            font-weight: 700;
+            font-size: 24px;
+            text-align: left;
+          }
+          .product-text-desc{
+            line-height: 30px;
+            font-size: 14px;
+            font-weight: 200;
+          }
+        }
+        .product-img{
+          width:35%;
+          object-fit: contain;
+          img{
+            background:none !important;
+            border-radius: 16px;
+            box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.5);
+            transition: all 0.20s ease-in-out;
+          }
+        }
+      } 
+
+    }
+
+    @media (max-width: 767.98px){
+      .first-div{
+        display: flex;
+        flex-direction: column;
+      }
+     
+    }
+
+    .case-studies-main{
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      color: #E5E5E5;
+    }
+
+    .case-study-section {
+      /* padding: 2em 0; */
+      padding-bottom: 30px;
+      position: relative; }
+      @media (max-width: 767.98px) {
+        .case-study-section {
+          /* padding: 6em 0; */
+         } }
+         
+          #expandProduct{
+            display: none;
+          }
+
+          .view-more-div{
+            width:65%;
+            margin:auto;
+            margin-top: 30px;
+          }
+
+          .view-more-btn{
+            width:25%;
+            font-weight: 700;
+            color: #ffc901;
+            border:none;
+            background-color: black;
+            padding:10px;
+            border-radius: 32px;
+            transition-duration: 0.4s;
+          }
+          .view-more-btn:hover{
+            color:black;
+            background-color: #ffc901;
+          }
+
+          @media (max-width: 767.98px){
+            .view-more-btn{
+              width:40%;
+            }
+          }
