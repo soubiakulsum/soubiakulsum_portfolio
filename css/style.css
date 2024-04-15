@@ -9831,7 +9831,7 @@ textarea.form-control {
           }
           .product-text-desc{
             line-height: 30px;
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 200;
           }
         }
@@ -9853,6 +9853,14 @@ textarea.form-control {
       .first-div{
         display: flex;
         flex-direction: column;
+        width:unset !important;
+
+        .product-text-main{
+          width:unset !important;
+        }
+        .product-img{
+          width: unset !important;
+        }
       }
      
     }
@@ -9862,17 +9870,13 @@ textarea.form-control {
       font-size: 30px;
       font-weight: 700;
       color: #E5E5E5;
+      margin-top: 20px;
     }
 
     .case-study-section {
       /* padding: 2em 0; */
       padding-bottom: 30px;
-      position: relative; }
-      @media (max-width: 767.98px) {
-        .case-study-section {
-          /* padding: 6em 0; */
-         } }
-         
+      position: relative; } 
           #expandProduct{
             display: none;
           }
@@ -9903,3 +9907,20 @@ textarea.form-control {
               width:40%;
             }
           }
+
+          @media (max-width: 767.98px) {
+            .case-study-section {
+              /* padding: 6em 0; */
+             }
+            .view-more-div{
+             width:unset !important;
+            }
+            #resume-section{
+              .col-md-3{
+                display:none;
+              }
+            }
+            .ftco-section{
+              padding:2rem !important
+            }
+            }
