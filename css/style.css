@@ -9924,3 +9924,26 @@ textarea.form-control {
               padding:2rem !important
             }
             }
+            .ftco-footer {
+              display: flex; /* Enable flexbox for footer */
+              justify-content: space-between; /* Distribute widgets evenly */
+              align-items: flex-end; /* Align content at bottom vertically */
+            }
+            
+            .row.mb-5 {
+              display: flex; /* Enable flexbox for the row */
+              max-width: 100%;
+              justify-content: space-between;
+              flex: 1; /* Allow row to grow and take up remaining space */
+            }
+            
+            .ftco-footer-widget {
+              flex: 0 0 48%; /* Set fixed width (adjust slightly if needed) */
+              margin: 0 10px;
+              justify-content: space-between; /* Align content within each div to left */
+            }
+            
+            
+            
+            
+            
