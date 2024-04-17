@@ -9942,6 +9942,28 @@ textarea.form-control {
               margin: 0 10px;
               justify-content: space-between; /* Align content within each div to left */
             }
+            .skills-container{
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              margin-bottom: 20px;
+              .skill-div{
+                margin: 10px;
+                text-align: center;
+                transition: .4s;
+                width: 100px;
+                background: white;
+                border-radius: 20px;
+               padding: 0px;
+               }
+                .skill-img{
+                  height:80px;
+                  width:80px;
+                  margin-top:5px;
+                  margin-bottom:unset !important;
+                  background: unset !important;
+                }
+              }
             
             
             
